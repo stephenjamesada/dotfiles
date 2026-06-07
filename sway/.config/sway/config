@@ -223,7 +223,7 @@ bindsym $mod+r mode "resize"
     bindsym Print exec grim -g "$(slurp)" - | swappy -f -
 
 include /etc/sway/config.d/*
-exec_always swaybg -i ~/Pictures/Wallpapers/dark-2.jpg -m fill
+
 default_border pixel 0
 gaps inner 10
 gaps outer 5

@@ -1,0 +1,88 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: #eaeaea;
+}
+
+/*
+ * Workspaces
+ */
+
+#workspaces {
+    margin: 6px 0 6px 8px;
+}
+
+#workspaces button {
+    background: rgba(255, 255, 255, 0.04);
+    color: #cfcfcf;
+
+    margin: 0 4px;
+    padding: 2px 10px;
+
+    border-radius: 10px;
+
+    transition-duration: 120ms;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.10);
+    color: #fff;
+}
+
+#workspaces button:active {
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+}
+
+/*
+ * Clock
+ */
+
+#clock {
+    background: rgba(255, 255, 255, 0.05);
+    
+    padding: 2px 14px;
+    margin: 6px 0;
+
+    border-radius: 12px;
+
+    color: #f5f5f5;
+}
+
+/*
+ * Network
+ */
+
+#network {
+    background: rgba(255, 255, 255, 0.05);
+
+    padding: 2px 14px;
+    margin: 6px 8px 6px 0;
+
+    border-radius: 12px;
+
+    color: #f5f5f5;
+}
+
+/*
+ * Tooltips
+ */
+
+tooltip {
+    background: rgba(10,10,10,0.90);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 8px;
+    color: #f2f2f2;
+}
+
+tooltip label {
+    padding: 2px 4px;
+}

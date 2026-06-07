@@ -1,0 +1,9 @@
+show=drun
+width=400
+height=300
+location=center
+prompt=Search
+allow_images=true
+layer=overlay
+insensitive=true
+gtk_dark=true

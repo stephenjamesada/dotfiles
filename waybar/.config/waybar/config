@@ -1,0 +1,30 @@
+{
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["network"],
+    "sway/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十"
+        }
+    },
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "{:%A, %B %d %Y\n%Z | UTC%z}"
+    },
+    "network": {
+        "format-wifi": "ᯤ {essid}",
+        "format-ethernet": "모 {ifname}",
+        "format-disconnected": "×",
+        "tooltip-format": "{essid}\n↓ {bandwidthDownBytes} ↑ {bandwidthUpBytes}"
+    }
+}
